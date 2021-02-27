@@ -1,0 +1,32 @@
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+ul li:not(li:last-child){
+    border-left: 1px #fff solid;
+}
+
+ul li:last-child{
+    border-right: 1px #fff solid;
+}
+
+li a{
+    font-weight: bold;
+    display: block;
+    padding: 14px 15px;
+    text-decoration: none;
+    color: #f2f2f2;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+li a:hover{
+    background-color: white;
+    color: #000;
+}

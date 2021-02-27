@@ -1,0 +1,22 @@
+.message{
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    margin: 10px auto;
+    padding: 15px 15px;
+}
+.sender{
+    margin-top: 0;
+    font-weight: bolder;
+}
+
+.created{
+    align-self: flex-end;
+}
+
+.msg{
+    margin-top:0;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}

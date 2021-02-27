@@ -1,0 +1,43 @@
+.chat-section{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    min-width: 80%;
+    height: 90%;
+    overflow: auto;
+}
+
+.conversation{
+    margin-bottom: 20px;
+    min-height: 65%;
+    padding: 0 15px;
+    background-color: #f1efef;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.room-title{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.room-title:before,
+.room-title:after {
+    border-bottom: 1px solid grey;
+    content: "";
+    width: 100%;
+}
+
+.my-msg-bgColor{
+    background-color: #a09c9c;
+}

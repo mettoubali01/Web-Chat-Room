@@ -1,0 +1,42 @@
+.login-content form{
+    width: 35%;
+    text-align: center;
+    padding: 50px 0;
+    -webkit-box-shadow: -1px -4px 28px 24px #D7D7D7;
+    box-shadow: -1px -4px 28px 24px #D7D7D7;
+}
+
+.login-content form input{
+    box-sizing: border-box;
+    width: 80%;
+    border-style: none;
+    padding: 25px 20px;
+}
+
+.login-content form input[type=text]{
+    background-color: #f2f2f2;
+}
+
+.login-content form input[type=submit]{
+    color: #fff;
+    border-radius: 5px;
+    background-color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px
+}
+
+.login-content form input[type=text]:focus{
+    font-size: larger;
+    outline: none;
+}
+
+.login-content div.login-btn input:hover{
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+}
+
+.error{
+    color: #ff0000;
+}
